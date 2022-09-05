@@ -1,1 +1,1 @@
-Duplicate lines
+No more JS
