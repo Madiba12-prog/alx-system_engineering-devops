@@ -1,10 +1,9 @@
-# Create a file in /tmp
-
+# Using Puppet, create a file in /tmp
 file { '/tmp/school':
   ensure  => 'present',
+  path    => '/tmp/holberton',
   content => 'I love Puppet',
-  group   => 'www-data',
   mode    => '0744',
   owner   => 'www-data',
-  path    => '/tmp/school',
+  group   => 'www-data',
 }
